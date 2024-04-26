@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+    <div class="input">
+    
+        <input type="text" name="" disabled id="inputtext" placeholder="Enter Number">
+    </div>
+    <div class="btn">
+        <button onclick="inputValue('-')" class="btnspecial">-</button>
+        <button onclick="inputValue('+')" class="btnspecial">+</button>
+        <button onclick="inputValue('*')" class="btnspecial">*</button>
+        <button onclick="inputValue('/')" class="btnspecial">/</button>
+    </div>
+    <div class="btn">
+        <button onclick="inputValue(7)">7</button>
+        <button onclick="inputValue(8)">8</button>
+        <button onclick="inputValue(9)">9</button>
+        <button onclick="allClear()" class="btnspecial">AC</button>
+    </div>
+    <div class="btn">
+        <button onclick="inputValue(4)">4</button>
+        <button onclick="inputValue(5)">5</button>
+        <button onclick="inputValue(6)">6</button>
+        <button onclick="singleClear()" class="btnspecial">C</button>
+    </div>
+    <div class="btn">
+        <button onclick="inputValue(1)">1</button>
+        <button onclick="inputValue(2)">2</button>
+        <button onclick="inputValue(3)">3</button>
+         <button onclick="result()" class="btnspecial">=</button>
+       
+    </div>
+    <div class="btn">
+        <button onclick="inputValue(0)">0</button>
+        <button onclick="inputValue('.')">.</button>
+        <button onclick="inputValue('%')">%</button>
+        <button onclick="inputValue('( )')" class="btnspecial">( )</button>
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+</html>
